@@ -1,0 +1,185 @@
+.contact-wrapper{
+    display: flex;
+    margin: 3%;
+    background-color: #FFFFFF;
+}
+.contact-us-container{
+    width: 40rem;
+    height: 66.8125rem;
+    padding-right: 2.5%;
+    flex-shrink: 0;
+}
+.contact-form-container{
+    width: 38rem;
+    height: 46rem;
+    flex-shrink: 0;
+}
+.contact-title{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111C4E;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.contact-us-box{
+    width: auto;
+    height: 62.625rem;
+    flex-shrink: 0;
+    background: #F1F1F1;
+}
+.contact-form-box{
+    
+    width: auto;
+    height: 41.8125rem;
+    flex-shrink: 0;
+    background: #F1F1F1;
+}
+.contact-us-inquiry-text{
+    padding: 1rem;
+    width: 35.8125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    color: #111C4E;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact-info-rectangle,
+.social-media-rectangle{
+    width: 14.9375rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    background: #111C4E;
+}
+.contact-info-text,
+.social-media-text{
+    color: #FFF;
+    font-family: "Open Sans", Helvetica ;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 2.5%;
+    padding-left: 10%;
+    vertical-align: middle;
+}
+.contact-icon {
+    padding-left: 4.25rem;
+    padding-top: 1.94rem;
+    width: 3.22213rem;
+    height: 10rem;
+}
+.contact-info-content{
+    display: flex;
+}
+.contact-people p{
+    color: #111C4E;
+    font-family: "Open Sans", Helvetica ;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15%;
+    width: 16rem;
+}
+.captain{
+    padding-top: 2rem;
+
+}
+.secretary{
+    padding-top: 2.3rem;
+    padding-bottom: 3em;
+}
+.social-media-content{
+    padding-top: 2.75rem;
+    padding-left: 1rem;
+
+}
+.social-media-content a{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+.social-media-content a:hover img{
+    height: 4.5rem;
+    transform: scale(1.15);
+}
+.social-media-content img{
+    width: 100%;
+    height: 3.90rem;
+    transition: 0.3s;  
+    margin: 0; 
+}
+.map img{
+    padding: 1rem;
+    padding-top: 4rem;
+    width:38rem;
+    height: 21rem;
+
+}
+.form{
+    padding:2rem;
+
+}
+.form label{
+    color: #111C4E;
+    font-family: "Open Sans", Helvetica ;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.form input{
+    border: none;
+}
+.phone-email{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.phone-class{
+    padding-right: 1.81rem;
+
+}
+.submit-button{
+    color: #111C4E;
+    width:9.75rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: inline-end;
+    align-items: center;
+    background: #FFC700;
+    position: relative;
+    border-radius: 54px;  
+    float: inline-end;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#name{
+    width:34rem;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+#phone{
+    width:16rem;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+#email{
+    width:16rem;
+    height: 2rem;
+    font-size: 1.3rem;   
+    text-size-adjust: auto;
+}
+#message{
+    width:34rem;
+    height:16rem;
+    font-size: .8rem;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+}
